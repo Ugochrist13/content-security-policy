@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +34,7 @@ section{
 
 #logo {
     width: 50%;
-    padding-left: 80px;
+    padding-left: 60px;
 }
 
 .nav-links{
@@ -90,6 +94,7 @@ img{
 }
 
 .banner-content h1{
+    font-family: Quicksand, sans-serif;
     font-size: 50px;
     font-weight: 800;
     text-align: center;

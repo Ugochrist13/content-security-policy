@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://www.pexels.com/; media-src https://www.youtube.com/; font-src http://fonts.google.com/;  script-src 'unsafe-inline'" /> -->
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' https://images.unsplash.com/; 
+    style-src 'self' http://fonts.googleapis.com/; frame-src 'self' https://www.youtube.com/;  script-src 'unsafe-inline'" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Christian Skilling Up</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
@@ -24,10 +25,11 @@
         <div class="banner">
             <div class="vidcont">
                 <div class="images">
-                    <img src="https://images.unsplash.com/photo-1664574654529-b60630f33fdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"  alt="">
+                    <img src="https://images.unsplash.com/photo-1664574654529-b60630f33fdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=
+                    crop&w=687&q=80"  alt="">
                 </div>
                 <div class="vid">
-                    <video id="vid" controls src="https://www.youtube.com/watch?v=F96T0_M-078"></video>
+                    <iframe id="vid" src="https://www.youtube.com/embed/zRwt25M5nGw" title="Don't Put People in Boxes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
                 </div>
             </div>
             <div class="banner-content">
